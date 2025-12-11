@@ -1,0 +1,24 @@
+a, b = 10, 3
+fruits = ["apple", "banana", "cherry"]  
+
+# Arithmetic
+print("Addition:", a + b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+# Comparison
+print("Is a > b ?", a > b)
+
+# Logical
+print("Logical AND:", (a > 5) and (b < 5))
+
+# Assignment
+a += 2
+print("After Assignment (a += 2):", a)
+
+# Membership
+print("'apple' in fruits?", "apple" in fruits)
+
+print()

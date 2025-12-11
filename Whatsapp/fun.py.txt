@@ -1,0 +1,6 @@
+def greet(user_name):
+    """Function to greet a user"""
+    return f"Hello, {user_name}! Welcome to Python."
+
+print(greet("Arun"))
+print()

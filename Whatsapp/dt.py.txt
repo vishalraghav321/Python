@@ -1,0 +1,27 @@
+# Numeric
+integer_num = 10
+float_num = 5.75
+complex_num = 2 + 3j
+
+# String
+name = "Python"
+
+# Boolean
+is_fun = True
+
+# List, Tuple, Set, Dictionary
+fruits = ["apple", "banana", "cherry"]  # list (mutable)
+coordinates = (10.5, 20.5)              # tuple (immutable)
+unique_nums = {1, 2, 3, 3, 2, 1}        # set (unique elements)
+student = {"name": "Alice", "age": 22, "marks": 88.5}  # dictionary
+
+print("Integer:", integer_num)
+print("Float:", float_num)
+print("Complex:", complex_num)
+print("String:", name)
+print("Boolean:", is_fun)
+print("List:", fruits)
+print("Tuple:", coordinates)
+print("Set:", unique_nums)
+print("Dictionary:", student)
+print()
