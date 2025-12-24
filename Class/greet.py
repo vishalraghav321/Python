@@ -24,22 +24,39 @@ def print_squares(nums):
 def employee(name, salary):
     print("Name = ", name, "Salary =", salary)
 
-greet()
-print(add(3,4))
-print(fact(6))
+def add_all(*nums):                 #variable length parameters
+    print(nums)
+    return sum(nums)
 
-print(fact2())
-print(fact2(4))
+def student_info(**details):        #variable length keyword parameters
+    print("Name =", details["name"])
+    print(details)
 
-print(area())
-print(area(35))
-print(area(35, 10))
+def func(a,b,*nums,c=10,**details):     #order of passing parameters
+    print("a*b*c = ", a*b*c)
+    
+    print(nums)
 
-print_squares([1,2,3,4])
+# greet()
+# print(add(3,4))
+# print(fact(6))
 
-employee("Abhishek", 40000)
-employee(salary=67000, name="Vaibhav")
+# print(fact2())
+# print(fact2(4))
 
+# print(area())
+# print(area(35))
+# print(area(35, 10))
+
+# print_squares([1,2,3,4])
+
+# employee("Abhishek", 40000)
+# employee(salary=67000, name="Vaibhav")
+
+# print(add_all(2,3,7,9))
+
+# student_info(name="Amit", roll=12)
+# student_info(name="Ajit", roll=11, Class="MCA")
 
 
 
